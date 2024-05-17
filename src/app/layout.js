@@ -2,6 +2,8 @@ import { Cardo } from "next/font/google";
 
 import "./globals.css";
 
+import Header from "@/components/Header";
+
 const cardo = Cardo({
   subsets: ["latin"],
   weight: ["400", "700"],
@@ -16,7 +18,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={cardo.className}>{children}</body>
+      <body className={cardo.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
