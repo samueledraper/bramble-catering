@@ -1,3 +1,3 @@
 export default function Gallery() {
-  return <></>;
+  return <main className="h-screen bg-brandGreen"></main>;
 }
