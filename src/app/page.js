@@ -69,7 +69,6 @@ export default function Home() {
           <Button link={"/gallery"} text={"See More"} color={"black"} />
         </div>
       </section>
-
       <Testimonials
         displayTag={"food"}
         message={
