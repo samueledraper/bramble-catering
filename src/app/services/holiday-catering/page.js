@@ -34,7 +34,7 @@ export default function HolidayCatering() {
           <Button link={"/gallery"} text={"See More"} color={"black"} />
         </div>
       </section>
-      <Testimonials displayTag={"food"} />
+      <Testimonials displayTag={"holiday"} />
     </main>
   );
 }
